@@ -1,7 +1,6 @@
-const functions = require('firebase-functions');
-const Filter = require('bad-words');
-const admin = require('firebase-admin');
-const { firestore } = require('firebase-admin');
+import functions from 'firebase-functions';
+import Filter from 'bad-words';
+import admin from 'firebase-admin';
 admin.initializeApp();
 
 const db = admin.firestore();
